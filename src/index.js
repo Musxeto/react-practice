@@ -5,6 +5,7 @@ import Counter from './components/Counter/Counter.js';
 import TodosList from './components/todos-list/TodosList.js';
 import ParentComponent from './components/controlled-input/ParentComponent.js';
 import DataFetcher from './components/fetch-data/DataFetcher.js';
+import FormValid from './components/form-validation/formValid.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -12,5 +13,6 @@ root.render(
     <TodosList/>
     <ParentComponent />
     <DataFetcher />
+    <FormValid />
   </React.StrictMode>
 );
