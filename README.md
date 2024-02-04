@@ -1,3 +1,3 @@
-#Practicing React from the Start
+###Practicing React
 ## Preparing for Summer Internship
 ## Escaping Tutorial Hell
