@@ -25,14 +25,14 @@ function TodosList() {
       addTask(event.target.description.value);
       event.target.description.value = '';
     }}>
-      <input type="text" name="description"/>
+      <input type="text" className='input-funny' name="description"/>
       <button type="submit">Add Task</button>
     </form>
     <div>
       <ul>
         {tasks.map((task,index)=>(
           <li key = {index}>
-            <input type='checkbox'
+            <input className='input-funny' type='checkbox'
             checked = {task.completed}
             onChange={()=>completeTask(index)}></input>
             <h3>{task.description}</h3>

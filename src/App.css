@@ -116,3 +116,72 @@ nav a:hover {
     color: #fff;
     cursor: pointer;
 }
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 80%;
+}
+
+/* Button styles */
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Funny Button styles */
+.button-funny {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.button-funny:hover {
+    transform: scale(1.1);
+}
+input {
+    padding: 10px;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Funny Input styles */
+.input-funny {
+    padding: 15px;
+    border: 2px solid #ffcc00;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #ffcc00;
+    font-size: 16px;
+}
+
+.input-funny:focus {
+    outline: none;
+    border-color: #ffcc00;
+    box-shadow: 0px 0px 5px rgba(255, 204, 0, 0.5);
+}
