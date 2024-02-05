@@ -15,16 +15,13 @@ function App() {
   // State to track the selected option in the App component
   const [selectedOption, setSelectedOption] = useState(null);
 
-  // Handle the selection of an option
   const handleSelect = (option) => {
-    // Update the selected option in the state
     setSelectedOption(option);
   };
 
   return (
     <div className="App">
       <NavigationBar />
-      {/* Pass options and handleSelect function as props */}
       <DropdownMenu options={options} onSelect={handleSelect} />
       <Counter />
       <Modal />
