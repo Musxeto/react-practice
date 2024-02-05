@@ -14,7 +14,7 @@ function ToggleSwitch({ initialState = false, onToggle }) {
     <div>
       <label>Toggle Switch</label>
       <input type='checkbox' checked={isOn} onChange={handleToggle} />
-      <span className={isOn ? 'on' : 'off'}></span>
+      <span>{isOn ? 'on' : 'off'}</span>
     </div>
   );
 }
