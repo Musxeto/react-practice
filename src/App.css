@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto:wght@100;300&family=Sixtyfour&display=swap');
+
+/* Apply fonts to specific elements */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Franklin', sans-serif; /* Apply Libre Franklin to headers */
+}
+body {
+    font-family: 'Libre Franklin', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sixtyfour', sans-serif;
+    background-color: #b6ae7f; /* Naruto yellow */
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #1d1c1b; /* Naruto orange */
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.card {
+    background-color: #FF6347; /* Tomato red, resembling Naruto's headband */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Futuristic elements */
+h1, h2 {
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: #000000;
+    color: #d10b0b;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f3f3f3;
+}
+
+.footer {
+    background-color: #FF8C00; /* Naruto orange */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #FFD700; /* Naruto yellow */
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+nav li:hover {
+    background-color: #FF6347; /* Tomato red, resembling Naruto's headband */
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FF6347; /* Tomato red, resembling Naruto's headband */
+    color: #fff;
+    cursor: pointer;
+}
