@@ -12,7 +12,6 @@ import DropdownMenu from './components/Day4/DropdownMenu.js';
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
 
-  // State to track the selected option in the App component
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleSelect = (option) => {
@@ -22,14 +21,14 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <DropdownMenu options={options} onSelect={handleSelect} />
+      
       <Counter />
       <Modal />
       <TodosList />
       <ParentComponent />
       <DataFetcher />
       <ToggleSwitch />
-
+      <DropdownMenu options={options} onSelect={handleSelect} />
       <div className="selected-option">
         <p>
           {selectedOption ? `You selected: ${selectedOption}` : 'Select an option'}
