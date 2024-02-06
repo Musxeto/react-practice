@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import ResponsiveLayout from './components/Day 4/ResponsiveLayout';
+import ResponsiveLayout from './components/Day4/ResponsiveLayout';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(

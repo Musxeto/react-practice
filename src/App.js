@@ -4,10 +4,10 @@ import Counter from './components/Counter/Counter.js';
 import TodosList from './components/todos-list/TodosList.js';
 import ParentComponent from './components/controlled-input/ParentComponent.js';
 import DataFetcher from './components/fetch-data/DataFetcher.js';
-import ToggleSwitch from './components/Day 4/ToggleSwtich.js';
-import NavigationBar from './components/Day 4/NavigationBar.js';
-import Modal from './components/Day 4/Modal.js';
-import DropdownMenu from './components/Day 4/DropdownMenu.js';
+import ToggleSwitch from './components/Day4/ToggleSwtich.js';
+import NavigationBar from './components/Day4/NavigationBar.js';
+import Modal from './components/Day4/Modal.js';
+import DropdownMenu from './components/Day4/DropdownMenu.js';
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
