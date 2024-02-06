@@ -8,6 +8,8 @@ import ToggleSwitch from './components/Day4/ToggleSwtich.js';
 import NavigationBar from './components/Day4/NavigationBar.js';
 import Modal from './components/Day4/Modal.js';
 import DropdownMenu from './components/Day4/DropdownMenu.js';
+import Pagination from './components/Day5/Pagination.js';
+
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
@@ -21,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      
+      <Pagination/>
       <Counter />
       <Modal />
       <TodosList />
