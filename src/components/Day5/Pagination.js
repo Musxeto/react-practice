@@ -15,15 +15,16 @@ function Pagination() {
         } else if(currentPage > totalPages){
             setCurrentPage(totalPages);
         }
-
-        const startIndex = (currentPage -1) * itemsPerPage;
-        const endIndex = startIndec + itemsPerPage;
+    
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage; // Corrected variable name
+    
         const pageItems = Array.from({ length: totalItems }, (_, index) => `Item ${index + 1}`).slice(startIndex, endIndex);
     
         setCurrentItems(pageItems);
-
+    
     }, [currentPage]);
-
+    
     const handlePreviousPage = () => {
         setCurrentPage(currentPage - 1);
     };
