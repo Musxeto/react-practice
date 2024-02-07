@@ -9,7 +9,7 @@ import NavigationBar from './components/Day4/NavigationBar.js';
 import Modal from './components/Day4/Modal.js';
 import DropdownMenu from './components/Day4/DropdownMenu.js';
 import Pagination from './components/Day5/Pagination.js';
-
+import Timer from './components/Day6/Timer.js';
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
@@ -24,6 +24,7 @@ function App() {
     <div className="App">
       <NavigationBar />
       <Pagination/>
+      <Timer />
       <Counter />
       <Modal />
       <TodosList />

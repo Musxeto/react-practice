@@ -48,9 +48,9 @@ function Timer() {
       <h1>Timer</h1>
       <p>{String(hours).padStart(2,'0')}:{String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}</p>
       <div>
-        <button onClick={startTimer}>Start</button>
-        <button onClick={stopTimer}>Stop</button>
-        <button onClick={resetTimer}>Reset</button>
+        <button className='button-funny' onClick={startTimer}>Start</button>
+        <button className='button-funny' onClick={stopTimer}>Stop</button>
+        <button className='button-funny' onClick={resetTimer}>Reset</button>
       </div>
     </div>
   )
