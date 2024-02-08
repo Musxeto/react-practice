@@ -10,10 +10,12 @@ import Modal from './components/Day4/Modal.js';
 import DropdownMenu from './components/Day4/DropdownMenu.js';
 import Pagination from './components/Day5/Pagination.js';
 import Timer from './components/Day6/Timer.js';
+import Carousel from './components/Day7/Carousel.js';
+
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
-
+  const images = ['https://wallpapercave.com/wp/wp8782757.jpg', 'https://wallpaperboat.com/wp-content/uploads/2021/04/19/75467/bleach-07.jpg', 'https://images.alphacoders.com/819/81993.jpg', 'https://s1.1zoom.me/b5050/144/332698-dikemoon_1920x1080.jpg', 'https://wallpaperset.com/w/full/2/a/5/172758.jpg'];
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleSelect = (option) => {
@@ -23,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
+      <Carousel images={images} />
       <Pagination/>
       <Timer />
       <Counter />
