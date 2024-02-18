@@ -24,25 +24,27 @@ function App() {
 
   return (
     <div className="App">
-      <NavigationBar />
-      <Carousel images={images} />
-      <AnimeTitles/>
-      <Pagination/>
-      <Timer />
-      <Counter />
-      <Modal />
-      <TodosList />
-      <ParentComponent />
-      <DataFetcher />
-      <ToggleSwitch />
-      <DropdownMenu options={options} onSelect={handleSelect} />
+    <NavigationBar />
+    <Carousel images={images} />
+    <AnimeTitles/>
+    <Pagination/>
+    <Timer />
+    <Counter />
+    <Modal />
+    <TodosList />
+    <ParentComponent />
+    <DataFetcher />
+    <ToggleSwitch />
+    <DropdownMenu options={options} onSelect={handleSelect} />
       <div className="selected-option">
         <p>
-          {selectedOption ? `You selected: ${selectedOption}` : 'Select an option'}
+        {selectedOption ? `You selected: ${selectedOption}` : 'Select an option'}
         </p>
         <p className="funny-instructions">YOU GOT SOME TASTE</p>
       </div>
-    </div>
+  </div>
+  
+    
   );
 }
 
