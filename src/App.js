@@ -11,7 +11,7 @@ import DropdownMenu from './components/Day4/DropdownMenu.js';
 import Pagination from './components/Day5/Pagination.js';
 import Timer from './components/Day6/Timer.js';
 import Carousel from './components/Day7/Carousel.js';
-import AnimeTitles from './components/Day8/AnimeTitles.js';
+import AnimeTitles from './components/Day8/Search/AnimeTitles.js';
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];

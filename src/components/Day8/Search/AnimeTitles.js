@@ -85,7 +85,6 @@ function AnimeTitles() {
     <div>
       <h1>Anime Search</h1>
       <Search titles={animeTitles} />
-
     </div>
   )
 }
