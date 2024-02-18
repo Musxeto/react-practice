@@ -14,7 +14,7 @@ function Search({ titles }) {
 
   return (
     <div>
-      <input type="text" placeholder='Search here...' value={searchQuery} onChange={handleSearchChange} />
+      <input type="text" className='input-funny' placeholder='Search here...' value={searchQuery} onChange={handleSearchChange} />
       <ul>
         {filteredTitles.map((title, index) => (
           <li key={index}>{title}</li>

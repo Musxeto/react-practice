@@ -201,3 +201,25 @@ input {
     font-size: 14px;
     margin-top: 10px;
   }
+  .glitch-list-item {
+    font-size: 1.5em;
+    color: #a281a2; /* Set your desired text color */
+    position: relative;
+    display: inline-block;
+    animation: glitch 1s infinite;
+    list-style-type: none; /* Remove default list styles */
+    margin: 10px 0; /* Adjust margin as needed */
+  }
+  
+  @keyframes glitch {
+    2%, 64% {
+      transform: translate(2px, 0) skewX(0deg);
+    }
+    4%, 60% {
+      transform: translate(-2px, 0) skewX(0deg);
+    }
+    62% {
+      transform: translate(0, 0) skewX(5deg);
+    }
+  }
+  
