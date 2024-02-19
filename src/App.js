@@ -12,6 +12,8 @@ import Pagination from './components/Day5/Pagination.js';
 import Timer from './components/Day6/Timer.js';
 import Carousel from './components/Day7/Carousel.js';
 import AnimeTitles from './components/Day8/Search/AnimeTitles.js';
+import CharacterCounter from './components/Day9/CharacterCounter.js';
+
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
@@ -26,6 +28,7 @@ function App() {
     <div className="App">
     <NavigationBar />
     <Carousel images={images} />
+    <CharacterCounter />
     <AnimeTitles/>
     <Pagination/>
     <Timer />
