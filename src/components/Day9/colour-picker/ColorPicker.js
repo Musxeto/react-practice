@@ -15,7 +15,7 @@ function ColorPicker() {
       <div
         style = {{
           width:'100%',
-          height: '300px',
+          height: '30px',
           backgroundColor: selectedColor,
           marginTop: '20px',
         }}
