@@ -12,8 +12,6 @@ const ChildComponent = ({ data }) => {
 const DynamicRenderer = ({ dataArray }) => {
   return (
     <div>
-      <h2>Dynamic Rendering</h2>
-    
       {dataArray.map((item, index) => (
         <ChildComponent key={index} data={item} />
       ))}
@@ -30,7 +28,7 @@ const ExampleApp = () => {
 
   return (
     <div>
-      <h1>Dynamic Rendering Example App</h1>
+      <h1>Dynamic Rendering Day-9</h1>
       <DynamicRenderer dataArray={dataArray} />
     </div>
   );
