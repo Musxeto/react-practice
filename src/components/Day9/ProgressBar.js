@@ -9,7 +9,7 @@ function ProgressBar({ duration }) {
     if (progress < 100) {
       interval = setInterval(() => {
         setProgress((prevProgress) => Math.min(prevProgress + 1, 100));
-      }, duration / 100);
+      }, duration/1000);
     }
 
     return () => clearInterval(interval);

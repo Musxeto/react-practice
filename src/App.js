@@ -13,7 +13,7 @@ import Timer from './components/Day6/Timer.js';
 import Carousel from './components/Day7/Carousel.js';
 import AnimeTitles from './components/Day8/Search/AnimeTitles.js';
 import CharacterCounter from './components/Day9/CharacterCounter.js';
-
+import ProgressBar from './components/Day9/ProgressBar.js';
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
@@ -26,7 +26,8 @@ function App() {
 
   return (
     <div className="App">
-    <NavigationBar />
+    <NavigationBar duration={90000000000}/>
+    <ProgressBar />
     <Carousel images={images} />
     <CharacterCounter />
     <AnimeTitles/>
