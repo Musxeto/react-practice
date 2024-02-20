@@ -33,7 +33,7 @@ function App() {
     <NavigationBar duration={90000000000}/>
     <ProgressBar />
     <Carousel images={images} />
-    <MarkDown />
+    
     <ExampleApp />
     <CharacterCounter />
     <AnimeTitles/>
@@ -45,6 +45,7 @@ function App() {
     <ParentComponent />
     <DataFetcher />
     <ColorPicker />
+    <MarkDown />
     <ToggleSwitch />
     <DropdownMenu options={options} onSelect={handleSelect} />
       <div className="selected-option">
