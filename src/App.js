@@ -16,7 +16,7 @@ import CharacterCounter from './components/Day9/CharacterCounter.js';
 import ProgressBar from './components/Day9/ProgressBar.js';
 import ExampleApp from './components/Day9/DynamicRendering/DynamicRenderer.js';
 import ColorPicker from './components/Day9/colour-picker/ColorPicker.js';
-
+import MarkDown from './components/Day10/markdown/MarkDown.js';
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
     <NavigationBar duration={90000000000}/>
     <ProgressBar />
     <Carousel images={images} />
-    
+    <MarkDown />
     <ExampleApp />
     <CharacterCounter />
     <AnimeTitles/>

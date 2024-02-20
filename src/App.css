@@ -245,7 +245,6 @@ input {
     line-height: 1.6;
   }
   
-  /* GitHub-like styling for headings */
   .markdown-container h1,
   .markdown-container h2,
   .markdown-container h3,
@@ -255,7 +254,6 @@ input {
     color: #333;
   }
   
-  /* GitHub-like styling for links */
   .markdown-container a {
     color: #0366d6;
     text-decoration: none;
@@ -265,25 +263,21 @@ input {
     text-decoration: underline;
   }
   
-  /* GitHub-like styling for code blocks */
   .markdown-container code {
     background-color: #f3f3f3;
     padding: 3px;
     font-family: 'Courier New', Courier, monospace;
   }
   
-  /* GitHub-like styling for lists */
   .markdown-container ul,
   .markdown-container ol {
     padding-left: 20px;
   }
   
-  /* GitHub-like styling for list items */
   .markdown-container li {
     margin-bottom: 8px;
   }
   
-  /* GitHub-like styling for blockquotes */
   .markdown-container blockquote {
     border-left: 2px solid #dfe2e5;
     padding-left: 15px;
@@ -291,14 +285,12 @@ input {
     color: #6a737d;
   }
   
-  /* GitHub-like styling for horizontal rules */
   .markdown-container hr {
     border: none;
     border-top: 1px solid #dfe2e5;
     margin: 20px 0;
   }
   
-  /* GitHub-like styling for images */
   .markdown-container img {
     max-width: 100%;
     height: auto;
