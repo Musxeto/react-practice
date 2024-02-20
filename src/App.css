@@ -222,4 +222,85 @@ input {
       transform: translate(0, 0) skewX(5deg);
     }
   }
+  /* styles.css or your preferred stylesheet */
+
+/* GitHub-like styling for input */
+.input-markdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  /* GitHub-like styling for rendered markdown container */
+  .markdown-container {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* GitHub-like styling for headings */
+  .markdown-container h1,
+  .markdown-container h2,
+  .markdown-container h3,
+  .markdown-container h4,
+  .markdown-container h5,
+  .markdown-container h6 {
+    color: #333;
+  }
+  
+  /* GitHub-like styling for links */
+  .markdown-container a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .markdown-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* GitHub-like styling for code blocks */
+  .markdown-container code {
+    background-color: #f3f3f3;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* GitHub-like styling for lists */
+  .markdown-container ul,
+  .markdown-container ol {
+    padding-left: 20px;
+  }
+  
+  /* GitHub-like styling for list items */
+  .markdown-container li {
+    margin-bottom: 8px;
+  }
+  
+  /* GitHub-like styling for blockquotes */
+  .markdown-container blockquote {
+    border-left: 2px solid #dfe2e5;
+    padding-left: 15px;
+    margin: 10px 0;
+    color: #6a737d;
+  }
+  
+  /* GitHub-like styling for horizontal rules */
+  .markdown-container hr {
+    border: none;
+    border-top: 1px solid #dfe2e5;
+    margin: 20px 0;
+  }
+  
+  /* GitHub-like styling for images */
+  .markdown-container img {
+    max-width: 100%;
+    height: auto;
+  }
   
