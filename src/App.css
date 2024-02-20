@@ -226,19 +226,19 @@ input {
 
 /* GitHub-like styling for input */
 .input-markdown {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 20px;
+    margin: auto;
+  width: 50%;
+  border: 3px solid #0366d6;
+  padding: 10px;
   }
   
   /* GitHub-like styling for rendered markdown container */
   .markdown-container {
     width: 100%;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
+    margin: auto;
+    width: 50%;
+    background-color: #333;
+    border: 1px solid #01244c;
     border-radius: 4px;
     padding: 15px;
     font-size: 16px;
@@ -252,6 +252,7 @@ input {
   .markdown-container h5,
   .markdown-container h6 {
     color: #333;
+    
   }
   
   .markdown-container a {
@@ -264,7 +265,7 @@ input {
   }
   
   .markdown-container code {
-    background-color: #f3f3f3;
+    background-color: #d20404;
     padding: 3px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -279,7 +280,7 @@ input {
   }
   
   .markdown-container blockquote {
-    border-left: 2px solid #dfe2e5;
+    border-left: 2px solid #105ba7;
     padding-left: 15px;
     margin: 10px 0;
     color: #6a737d;
@@ -287,7 +288,7 @@ input {
   
   .markdown-container hr {
     border: none;
-    border-top: 1px solid #dfe2e5;
+    border-top: 1px solid #0b69c7;
     margin: 20px 0;
   }
   

@@ -4,8 +4,8 @@ import MarkDownRenderer from './MarkDownRenderer'
 function MarkDown() {
   const [content, setContent] = useState('');
 
-  const renderContent = () => {
-    setContent(e.target.value);
+  const renderContent = (event) => {
+    setContent(event.target.value);
   }
   
     return (
