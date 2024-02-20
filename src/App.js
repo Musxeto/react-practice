@@ -17,7 +17,9 @@ import ProgressBar from './components/Day9/ProgressBar.js';
 import ExampleApp from './components/Day9/DynamicRendering/DynamicRenderer.js';
 import ColorPicker from './components/Day9/colour-picker/ColorPicker.js';
 import MarkDown from './components/Day10/markdown/MarkDown.js';
-
+import Tab from './components/Day10/tabbed-navigation/Tab.js';
+import Tabs from './components/Day10/tabbed-navigation/Tabs.js';
+import TabList from './components/Day10/tabbed-navigation/TabList.js';
 
 function App() {
   const options = ['kENDRICK LAMAR', 'UZI', 'Carti', 'YE'];
@@ -38,6 +40,14 @@ function App() {
     <CharacterCounter />
     <AnimeTitles/>
     <Pagination/>
+    <div>
+      <h1>Tabbed Navigation Example</h1>
+      <Tabs>
+        <Tab label="Tab 1" content={<p>Content for Tab 1</p>} />
+        <Tab label="Tab 2" content={<p>Content for Tab 2</p>} />
+        <Tab label="Tab 3" content={<p>Content for Tab 3</p>} />
+      </Tabs>
+    </div>
     <Timer />
     <Counter />
     <Modal />
