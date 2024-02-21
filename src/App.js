@@ -31,11 +31,6 @@ function App() {
     "https://s1.1zoom.me/b5050/144/332698-dikemoon_1920x1080.jpg",
     "https://wallpaperset.com/w/full/2/a/5/172758.jpg",
   ];
-  const [selectedOption, setSelectedOption] = useState(null);
-
-  const handleSelect = (option) => {
-    setSelectedOption(option);
-  };
 
   return (
     <div className="App">
