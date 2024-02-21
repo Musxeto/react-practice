@@ -21,6 +21,7 @@ import Tab from "./components/Day10/tabbed-navigation/Tab.js";
 import Tabs from "./components/Day10/tabbed-navigation/Tabs.js";
 import TabList from "./components/Day10/tabbed-navigation/TabList.js";
 import LazyLoading from "./components/Day11/LazyLoading.js";
+import HoverEffect from "./components/Day11/HoverEffect.js";
 
 function App() {
   const options = ["kENDRICK LAMAR", "UZI", "Carti", "YE"];
@@ -29,6 +30,7 @@ function App() {
       <NavigationBar />
       <ProgressBar duration={9000} />
       <LazyLoading />
+      <HoverEffect />
     </div>
   );
 }

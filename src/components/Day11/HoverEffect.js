@@ -1,21 +1,34 @@
 import React from "react";
 import styled from "styled-components";
 
-const HoverEffectCompnonent = styled.div`
+const CenteredContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh; /* Make the container cover the full height of the viewport */
+`;
+
+const HoverEffectComponent = styled.div`
   width: 200px;
-  height: 200px;
-  background-color: red;
+  height: 100px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: background-color 0.5s ease;
 
   &:hover {
-    background-color: blue;
+    background-color: yellow;
   }
 `;
+
 function HoverEffect() {
   return (
-    <HoverEffectComponent>
-      <p>Hover over me</p>
-    </HoverEffectComponent>
+    <CenteredContainer>
+      <HoverEffectComponent>
+        <p>Hover</p>
+      </HoverEffectComponent>
+    </CenteredContainer>
   );
 }
 
